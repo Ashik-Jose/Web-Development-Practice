@@ -33,6 +33,9 @@ function reverseString(s)
     return s;
 }
 
+function main()
+    {
+
 try {
     var s = Number(1234);
     s = reverseString(s);
@@ -46,3 +49,4 @@ finally
     console.log(s);
 }
  
+    }

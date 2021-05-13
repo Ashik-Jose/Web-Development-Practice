@@ -32,10 +32,15 @@ function regExp3()
      return re
 }
 
-var s = "1,4 and 4,1.4";
+function main()
+    {
+
+var s = readLine();
 var re = regExp3();
 var r = s.match(re);
 for( const e of r)
 {
     console.log(e);
+}
+
 }
